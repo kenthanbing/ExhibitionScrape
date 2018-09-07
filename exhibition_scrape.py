@@ -36,7 +36,7 @@ def get_data(url):
         data.append((ex_name, ex_disc, ex_cycle, ex_city, ex_location, ex_date))
     return data
 
-get_data('https://www.eventseye.com/fairs/c1_trade-shows_south-africa.html')
+get_data('https://www.eventseye.com/fairs/c1_trade-shows_south-africa_1.html')
 
 with open('exhibitions.csv', 'a', encoding='utf-8-sig', newline='') as csv_file:
     writer = csv.writer(csv_file)

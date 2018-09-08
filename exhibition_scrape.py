@@ -51,7 +51,7 @@ def get_data(url):
         data.append((ex_name, ex_disc, ex_cycle, ex_city, ex_location, ex_date, orgweb_link, officialweb_link, org_tel, org_mail))
     return data
 
-base_url = 'https://www.eventseye.com/fairs/c1_trade-shows_cambodia'
+base_url = 'https://www.eventseye.com/fairs/c1_trade-shows_south-africa'
 get_data(base_url + '.html')
 
 i = 1
